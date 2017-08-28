@@ -1,0 +1,18 @@
+<% include partials/header %>
+
+<div class="row">
+  <div class="col-lg-8">
+    <div class="page-header">
+      <h1><h1><%= campground.name %></h1></h1>
+    </div>
+    <a href="/campgrounds/<%= campground.id %>/delete" class="btn btn-danger btn-sm">Delete</a>
+    <a href="/campgrounds/<%= campground.id %>/edit" class="btn btn-warning btn-sm">Edit</a>
+    <br><br>
+    <p><%= campground.description %></p>
+  </div>
+  <div class="col-lg-4">
+    <img src="<%= campground.image %>" alt="" class="img-thumbnail">
+  </div>
+</div>
+
+<% include partials/footer %>

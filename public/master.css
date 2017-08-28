@@ -1,0 +1,13 @@
+.landing {
+  text-align: center;
+}
+
+.footer {
+  position:relative;
+  margin-top: 200px;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
